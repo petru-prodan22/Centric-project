@@ -1,0 +1,26 @@
+
+1. Am făcut cont pe Grafana Cloud
+2. Am instalat extensia k6 pt Chrome
+3. Am creat un proiect pe grafana.com
+4. Am creat un test nou + record la scenariu
+5. Ne-am folosit de test.k6.io pentru a creea requesturile pentr a evita suprasolicitarea site-urilor oficiale
+6. Am accesat cand am facut recordul urmatoarele : 
+	-test.k6.io
+	-test.k6.io/flip coin.php
+	- ______________________?bet=heads
+	- ______________________?bet=tails
+	- ______________________?bet=tails
+	-test.k6.io
+	-test.k6.io/news.php
+	-test.k6.io
+	-test.k6.io/browser.php
+	-test.k6.io
+	-test.k6.io/my messages.php
+7. După terminarea recordului am salvat sub formă de script
+8. Am copiat codul generat într-un fișier cu formatul .js numit de noi: testare.js
+9. Am modificat și adaugat verificări pentru codul de răspuns și durată
+10. Am instalat k6
+11. Am deschis CMD și am folosit urmatoarea comanda:
+ cd C:/Program Files/k6
+12. Am executat testul folosind comanda: 
+ k6 run testare.js

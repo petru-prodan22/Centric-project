@@ -1,0 +1,11 @@
+1. Am instalat Postman
+2. Am creat o colecție
+3. Am adăugat request la colecție
+4. Am adăugat URL la request petstore.swagger.io/v2
+5. Am filtrat corespunzător requestul
+6. Am executat requestul și am vizualizat răspunsul
+7. Am adăugat variabile și le-am folosit în request
+8. Am adăugat requesturi de tip: GET,POST,PUT,DEL
+9. Am adăugat test (verificare cod răspuns)
+10. Am adăugat test (verificare valoare proprietate de răspuns)
+11. Am executat colecția de request-uri
